@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aaron/Documents/Projects/myPCL/pcd_visualizer
+CMAKE_SOURCE_DIR = /home/aaron/Documents/Projects/MyPCL/pcd_visualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aaron/Documents/Projects/myPCL/pcd_visualizer
+CMAKE_BINARY_DIR = /home/aaron/Documents/Projects/MyPCL/pcd_visualizer
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pcd_visualizer.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/pcd_visualizer.dir/flags.make
 
 CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.o: CMakeFiles/pcd_visualizer.dir/flags.make
 CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.o: pcd_visualizer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/aaron/Documents/Projects/myPCL/pcd_visualizer/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/aaron/Documents/Projects/MyPCL/pcd_visualizer/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.o -c /home/aaron/Documents/Projects/myPCL/pcd_visualizer/pcd_visualizer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.o -c /home/aaron/Documents/Projects/MyPCL/pcd_visualizer/pcd_visualizer.cpp
 
 CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/aaron/Documents/Projects/myPCL/pcd_visualizer/pcd_visualizer.cpp > CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/aaron/Documents/Projects/MyPCL/pcd_visualizer/pcd_visualizer.cpp > CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.i
 
 CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/aaron/Documents/Projects/myPCL/pcd_visualizer/pcd_visualizer.cpp -o CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/aaron/Documents/Projects/MyPCL/pcd_visualizer/pcd_visualizer.cpp -o CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.s
 
 CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.o.requires:
 .PHONY : CMakeFiles/pcd_visualizer.dir/pcd_visualizer.cpp.o.requires
@@ -185,6 +185,6 @@ CMakeFiles/pcd_visualizer.dir/clean:
 .PHONY : CMakeFiles/pcd_visualizer.dir/clean
 
 CMakeFiles/pcd_visualizer.dir/depend:
-	cd /home/aaron/Documents/Projects/myPCL/pcd_visualizer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaron/Documents/Projects/myPCL/pcd_visualizer /home/aaron/Documents/Projects/myPCL/pcd_visualizer /home/aaron/Documents/Projects/myPCL/pcd_visualizer /home/aaron/Documents/Projects/myPCL/pcd_visualizer /home/aaron/Documents/Projects/myPCL/pcd_visualizer/CMakeFiles/pcd_visualizer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aaron/Documents/Projects/MyPCL/pcd_visualizer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaron/Documents/Projects/MyPCL/pcd_visualizer /home/aaron/Documents/Projects/MyPCL/pcd_visualizer /home/aaron/Documents/Projects/MyPCL/pcd_visualizer /home/aaron/Documents/Projects/MyPCL/pcd_visualizer /home/aaron/Documents/Projects/MyPCL/pcd_visualizer/CMakeFiles/pcd_visualizer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pcd_visualizer.dir/depend
 

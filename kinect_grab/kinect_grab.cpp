@@ -1,15 +1,16 @@
-include <iostream>
+#include <iostream>
 #include <string>
 #include <sstream>
-
-#include <pcl/io/pcd_io.h>
+#include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
 #include <pcl/io/openni_grabber.h>
+#include <pcl/common/time.h>
+#include <pcl/io/pcd_io.h>
 #include <pcl/visualization/cloud_viewer.h>
 
 using namespace std; 
 
-const string OUT_DIR = "/home/aaron/Documents/Projects/myPCL/kinect_grab/frame_saver_output"; 
+const string OUT_DIR = "saved_pcds/"; 
 
 class SimpleOpenNIViewer 
 { 
@@ -20,7 +21,7 @@ public:
                 save_one = false; 
     } 
 
-    void cloud_cb_ (const pcl::PointCloud<pcframe_saver_outputl::PointXYZRGB>::ConstPtr &cloud) 
+    void cloud_cb_ (const pcl::PointCloud<pcl::PointXYZRGBA>::ConstPtr &cloud) 
     { 
                 if (!viewer.wasStopped()) { 
                         viewer.showCloud (cloud); 
@@ -39,7 +40,7 @@ public:
     { 
                 pcl::Grabber* interface = new pcl::OpenNIGrabber(); 
 
-                boost::function<void (const pcl::PointCloud<pcl::PointXYZRGB>::ConstPtr&)> f = 
+                boost::function < void (const pcl::PointCloud<pcl::PointXYZRGBA>::ConstPtr&) > f = 
                         boost::bind (&SimpleOpenNIViewer::cloud_cb_, this, _1); 
 
                 interface->registerCallback (f); 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aaron/Documents/Projects/myPCL/kinect_grab
+CMAKE_SOURCE_DIR = /home/aaron/Documents/Projects/MyPCL/kinect_grab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aaron/Documents/Projects/myPCL/kinect_grab
+CMAKE_BINARY_DIR = /home/aaron/Documents/Projects/MyPCL/kinect_grab
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kinect_grab.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/kinect_grab.dir/flags.make
 
 CMakeFiles/kinect_grab.dir/kinect_grab.cpp.o: CMakeFiles/kinect_grab.dir/flags.make
 CMakeFiles/kinect_grab.dir/kinect_grab.cpp.o: kinect_grab.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/aaron/Documents/Projects/myPCL/kinect_grab/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/aaron/Documents/Projects/MyPCL/kinect_grab/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/kinect_grab.dir/kinect_grab.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kinect_grab.dir/kinect_grab.cpp.o -c /home/aaron/Documents/Projects/myPCL/kinect_grab/kinect_grab.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kinect_grab.dir/kinect_grab.cpp.o -c /home/aaron/Documents/Projects/MyPCL/kinect_grab/kinect_grab.cpp
 
 CMakeFiles/kinect_grab.dir/kinect_grab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kinect_grab.dir/kinect_grab.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/aaron/Documents/Projects/myPCL/kinect_grab/kinect_grab.cpp > CMakeFiles/kinect_grab.dir/kinect_grab.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/aaron/Documents/Projects/MyPCL/kinect_grab/kinect_grab.cpp > CMakeFiles/kinect_grab.dir/kinect_grab.cpp.i
 
 CMakeFiles/kinect_grab.dir/kinect_grab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kinect_grab.dir/kinect_grab.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/aaron/Documents/Projects/myPCL/kinect_grab/kinect_grab.cpp -o CMakeFiles/kinect_grab.dir/kinect_grab.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/aaron/Documents/Projects/MyPCL/kinect_grab/kinect_grab.cpp -o CMakeFiles/kinect_grab.dir/kinect_grab.cpp.s
 
 CMakeFiles/kinect_grab.dir/kinect_grab.cpp.o.requires:
 .PHONY : CMakeFiles/kinect_grab.dir/kinect_grab.cpp.o.requires
@@ -185,6 +185,6 @@ CMakeFiles/kinect_grab.dir/clean:
 .PHONY : CMakeFiles/kinect_grab.dir/clean
 
 CMakeFiles/kinect_grab.dir/depend:
-	cd /home/aaron/Documents/Projects/myPCL/kinect_grab && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaron/Documents/Projects/myPCL/kinect_grab /home/aaron/Documents/Projects/myPCL/kinect_grab /home/aaron/Documents/Projects/myPCL/kinect_grab /home/aaron/Documents/Projects/myPCL/kinect_grab /home/aaron/Documents/Projects/myPCL/kinect_grab/CMakeFiles/kinect_grab.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aaron/Documents/Projects/MyPCL/kinect_grab && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaron/Documents/Projects/MyPCL/kinect_grab /home/aaron/Documents/Projects/MyPCL/kinect_grab /home/aaron/Documents/Projects/MyPCL/kinect_grab /home/aaron/Documents/Projects/MyPCL/kinect_grab /home/aaron/Documents/Projects/MyPCL/kinect_grab/CMakeFiles/kinect_grab.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kinect_grab.dir/depend
 

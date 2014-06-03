@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/aaron/Documents/Projects/myPCL/pcd_visualizer/pcd_visualizer.cpp
+/home/aaron/Documents/Projects/MyPCL/pcd_visualizer/pcd_visualizer.cpp
 iostream
 -
 boost/thread/thread.hpp

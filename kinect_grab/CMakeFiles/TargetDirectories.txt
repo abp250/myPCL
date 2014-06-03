@@ -1,1 +1,1 @@
-/home/aaron/Documents/Projects/myPCL/kinect_grab/CMakeFiles/kinect_grab.dir
+/home/aaron/Documents/Projects/MyPCL/kinect_grab/CMakeFiles/kinect_grab.dir

@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aaron/Documents/Projects/myPCL/kinect_grab
+CMAKE_SOURCE_DIR = /home/aaron/Documents/Projects/MyPCL/kinect_grab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aaron/Documents/Projects/myPCL/kinect_grab
+CMAKE_BINARY_DIR = /home/aaron/Documents/Projects/MyPCL/kinect_grab
 
 #=============================================================================
 # Target rules for target CMakeFiles/kinect_grab.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/aaron/Documents/Projects/myPCL/kinect_grab
 CMakeFiles/kinect_grab.dir/all:
 	$(MAKE) -f CMakeFiles/kinect_grab.dir/build.make CMakeFiles/kinect_grab.dir/depend
 	$(MAKE) -f CMakeFiles/kinect_grab.dir/build.make CMakeFiles/kinect_grab.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/aaron/Documents/Projects/myPCL/kinect_grab/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/aaron/Documents/Projects/MyPCL/kinect_grab/CMakeFiles  1
 	@echo "Built target kinect_grab"
 .PHONY : CMakeFiles/kinect_grab.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/kinect_grab.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kinect_grab.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aaron/Documents/Projects/myPCL/kinect_grab/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aaron/Documents/Projects/MyPCL/kinect_grab/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kinect_grab.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aaron/Documents/Projects/myPCL/kinect_grab/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aaron/Documents/Projects/MyPCL/kinect_grab/CMakeFiles 0
 .PHONY : CMakeFiles/kinect_grab.dir/rule
 
 # Convenience name for target.

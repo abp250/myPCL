@@ -1,4 +1,4 @@
-# Install script for directory: /home/aaron/Documents/Projects/myPCL/kinect_grab
+# Install script for directory: /home/aaron/Documents/Projects/MyPCL/kinect_grab
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/aaron/Documents/Projects/myPCL/kinect_grab/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/aaron/Documents/Projects/MyPCL/kinect_grab/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/aaron/Documents/Projects/myPCL/kinect_grab/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/aaron/Documents/Projects/MyPCL/kinect_grab/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)
